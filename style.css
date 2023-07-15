@@ -443,18 +443,13 @@ body {
 
 /* Contact Form */
 .co-form {
-  width: 100%;
-  height: auto;
-  background-image: url("image/contact-form-bg.png");
   background-color: #6070ff;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 50px 0 45px 0;
   border-radius: 60px 0 0 0;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  margin-top: 114px;
+  padding: 50px 0 45px 0;
+  background-image: url("image/contact-form-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto 88%;
+  background-position: right;
 }
 
 .form-set {
@@ -562,13 +557,13 @@ body {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    margin-right: 71px;
+    margin-right: 120px;
     line-height: 50px;
   }
 
   .menu-sec li {
     list-style: none;
-    margin-left: 16px;
+    margin-left: 30px;
   }
 
   .menu-sec li a {
