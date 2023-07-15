@@ -33,7 +33,7 @@ body {
   line-height: 50px;
   margin-left: 30px;
   cursor: pointer;
-  transition: green 0.3s ease;
+  transition: rgb(35, 123, 255) 1.0s ease-in-out;
 }
 
 .logo:hover {
