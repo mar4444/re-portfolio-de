@@ -33,6 +33,11 @@ body {
   line-height: 50px;
   margin-left: 30px;
   cursor: pointer;
+  transition: rgb(35, 123, 255) 1.0s ease-in-out;
+}
+
+.logo:hover {
+  background-color: #008000;
 }
 
 .btn {
